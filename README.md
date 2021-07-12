@@ -20,4 +20,4 @@ CSS: En español se traduce como hoja de estilos en forma de cascada. Basicament
 
 JavaScript: Es un lenguaje de programacion interpretado, soportado por los navegadores de forma nativa. Se utiliza para construir una logica de programacion a nuestros documentos html, generalmente en la parte superficial de nuestro documento.
 
-![Esta es una imagen de ejemplo](https://w7.pngwing.com/pngs/581/330/png-transparent-logo-cascading-style-sheets-html5-css3-prags-html5-und-css3-der-meisterkurs-html5-css3-javascript-design-text-trademark-logo.png)
+![Esta es una imagen de ejemplo](https://img.flaticon.com/icons/png/512/174/174854.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF)
