@@ -1,6 +1,6 @@
 ## Repositorio de aprendizaje
 
-TIPOLOGIAS DE LOS SITIOS WEB
+**TIPOLOGIAS DE LOS SITIOS WEB**
 
 -Sitio web: es una pagina o conjunto de paginas que funcionan de una manera simple ya predeterminada por el
  desarollador en cuestion, aunque algunas pueden variar entre lo estatico y dinamico, no son mas que simples 
@@ -12,10 +12,12 @@ TIPOLOGIAS DE LOS SITIOS WEB
 
 -Pagina web: Una pagina web conceptualmente refiere a un simple archivo html.
 
-COMPONENTES ESTANDAR DE UNA PAGINA WEB
+**COMPONENTES ESTANDAR DE UNA PAGINA WEB**
 
-HTML: Es un lenguaje de marcado de hipertexto, que se utiliza para crear y estructurar paginas web. No es un lenguaje de programacion ya que funciona a traves de etiquetas, al contrario de un lenguaje de programacion, en este no se pueden construir algoritmos o pasos para resolver algo en especifico.
+**HTML:** Es un lenguaje de marcado de hipertexto, que se utiliza para crear y estructurar paginas web. No es un lenguaje de programacion ya que funciona a traves de etiquetas, al contrario de un lenguaje de programacion, en este no se pueden construir algoritmos o pasos para resolver algo en especifico.
 
 CSS: En español se traduce como hoja de estilos en forma de cascada. Basicamente css es un lenguaje de diseño que define una gran parte de la presentacion de un documento hecho en un lenguaje de marcado (html).
 
 JavaScript: Es un lenguaje de programacion interpretado, soportado por los navegadores de forma nativa. Se utiliza para construir una logica de programacion a nuestros documentos html, generalmente en la parte superficial de nuestro documento.
+
+![Esta es una imagen de ejemplo](https://w7.pngwing.com/pngs/581/330/png-transparent-logo-cascading-style-sheets-html5-css3-prags-html5-und-css3-der-meisterkurs-html5-css3-javascript-design-text-trademark-logo.png)
