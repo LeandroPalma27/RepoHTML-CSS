@@ -20,4 +20,4 @@
 
 **JavaScript:** Es un lenguaje de programacion interpretado, soportado por los navegadores de forma nativa. Se utiliza para construir una logica de programacion a nuestros documentos html, generalmente en la parte superficial de nuestro documento.
 
-![Esta es una imagen de ejemplo](https://img.flaticon.com/icons/png/512/174/174854.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF)
+![Esta es una imagen de ejemplo](https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png)
