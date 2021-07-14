@@ -1,5 +1,7 @@
 # Repositorio de aprendizaje
 
+### Primeros pasos
+
 **TIPOLOGIAS DE LOS SITIOS WEB**
 
 **-Sitio web:** es una pagina o conjunto de paginas que funcionan de una manera simple ya predeterminada por el
