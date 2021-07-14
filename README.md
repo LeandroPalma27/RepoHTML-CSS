@@ -1,6 +1,6 @@
 # Repositorio de aprendizaje
 
-### Primeros pasos
+## 1. Primeros pasos
 
 **TIPOLOGIAS DE LOS SITIOS WEB**
 
