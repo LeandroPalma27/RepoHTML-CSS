@@ -72,3 +72,23 @@
     <center><small>Todos los derechos reservados. 2021 </small></center>
 </footer>
 ``` 
+DATO EXTRA!!
+
+En el proceso recorde que para usar una hoja de estilos en un documento html, es necesario importarla de la siguiente manera:
+
+``` html
+<link rel="stylesheet" href="RUTA Y NOMBRE DEL ARCHIVO CSS" type="text/css">
+```
+
+Luego para posterior mente usar sus propiedades en cualquier etiqueta html que lo soporte, seria de la siguiente manera:
+
+``` html
+
+Suponiendo que quiero ponerle borde a una imagen
+
+<img src="https://www.w3schools.com/w3css/img_car.jpg" alt="Car" style="width:50%" class="borde">
+
+Dentro de un class colocariamos la propiedad que nos permite darle borde a una imagen.
+
+```
+
