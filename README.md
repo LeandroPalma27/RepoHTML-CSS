@@ -24,7 +24,7 @@
 
 **PARTES DE UNA PAGINA WEB**
 
-**HEADER O CABECERA:** Es la parte en la que se toma toda la parte superior de una pagina web.
+**Header o cabecera:** Es la parte en la que se toma toda la parte superior de una pagina web.
 
 ``` html
 <head>
@@ -37,9 +37,9 @@
 </head>
 ```
 
-**CONTENIDO:** Es la parte principal de una pagina web. Es aqui donde se concentra la informacion mas importante de una pagina.
+**Contenido:** Es la parte principal de una pagina web. Es aqui donde se concentra la informacion mas importante de una pagina.
 
-**BARRA LATERAL:** Sirve para organizar el contenido de una pagina. Tambien se puede incluir otros tipos de material como banners, videos, etc.
+**Barra lateral:** Sirve para organizar el contenido de una pagina. Tambien se puede incluir otros tipos de material como banners, videos, etc.
 
 ``` html
 <body>
@@ -63,7 +63,7 @@
 
 </body>
 ```
-**FOOTER:** Es netamente la parte inferior de la pagina, al igual que en la cabecera, se toma toda esa parte pero en este caso inferior para colocar informacion en especifico. Generalmente se usa para poner politicas de privacidad, correos electronicos para contacto, etc.
+**Footer o pie de pagina:** Es netamente la parte inferior de la pagina, al igual que en la cabecera, se toma toda esa parte pero en este caso inferior para colocar informacion en especifico. Generalmente se usa para poner politicas de privacidad, correos electronicos para contacto, etc.
 
 ``` html
 <footer>
