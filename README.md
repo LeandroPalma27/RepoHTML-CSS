@@ -21,3 +21,52 @@
 **JavaScript:** Es un lenguaje de programacion interpretado, soportado por los navegadores de forma nativa. Se utiliza para construir una logica de programacion a nuestros documentos html, generalmente en la parte superficial de nuestro documento.
 
 ![Esta es una imagen de ejemplo](https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png)
+
+**PARTES DE UNA PAGINA WEB**
+
+**HEADER O CABECERA:** Es la parte en la que se toma toda la parte superior de una pagina web.
+
+``` html
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <h1>HOLA</h1>
+    <p>Esta es una prueba de lo que puede llegar a ser un header.</p>
+</head>
+```
+
+**CONTENIDO:** Es la parte principal de una pagina web. Es aqui donde se concentra la informacion mas importante de una pagina.
+
+**BARRA LATERAL:** Sirve para organizar el contenido de una pagina. Tambien se puede incluir otros tipos de material como banners, videos, etc.
+
+``` html
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Menu</h3>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+    <!-- Content -->
+    <div style="margin-left:25%">
+        <div class="w3-container w3-teal">
+            <h1>My Page</h1>
+        </div>
+        <div class="w3-container">
+            <img src="https://www.w3schools.com/w3css/img_car.jpg" alt="Car" style="width:50%" class="borde">
+        </div>
+    </div>
+
+</body>
+```
+**FOOTER:** Es netamente la parte inferior de la pagina, al igual que en la cabecera, se toma toda esa parte pero en este caso inferior para colocar informacion en especifico. Generalmente se usa para poner politicas de privacidad, correos electronicos para contacto, etc.
+
+``` html
+<footer>
+    <center><small>Todos los derechos reservados. 2021 </small></center>
+</footer>
+``` 
