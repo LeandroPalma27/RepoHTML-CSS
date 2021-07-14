@@ -90,5 +90,14 @@ Suponiendo que quiero ponerle borde a una imagen
 
 Dentro de un class colocariamos la propiedad que nos permite darle borde a una imagen.
 
+
 ```
+PD: Asi se codifica una propiedad en CSS.
+
+``` css
+.borde {
+    border-style:groove;
+}
+```
+
 
