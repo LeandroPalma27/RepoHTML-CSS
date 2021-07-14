@@ -1,4 +1,4 @@
-## Repositorio de aprendizaje
+# Repositorio de aprendizaje
 
 **TIPOLOGIAS DE LOS SITIOS WEB**
 
