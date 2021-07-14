@@ -72,7 +72,7 @@
     <center><small>Todos los derechos reservados. 2021 </small></center>
 </footer>
 ``` 
-DATO EXTRA!!
+**DATO EXTRA!!**
 
 En el proceso recorde que para usar una hoja de estilos en un documento html, es necesario importarla de la siguiente manera:
 
