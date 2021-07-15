@@ -110,8 +110,8 @@ Realmente existen tantas herramientas y software para el desarrollo de paginas w
 La version mas actual y estable es la verion 5, conociendose como HTML5. 
 Debemos saber que tambien existe una variante al html con una sintaxis similar a la de html, llamada xhtml. La gran diferencia es que esta te obliga a tener una sintaxis mas estricta y mas ordenada.
 
-Su extension de archivo es la siguiente: "Nombre del archivo"**.xhtml**
-Asi se veria un Hello World en XHTML:
+- Su extension de archivo es la siguiente: "Nombre del archivo"**.xhtml**
+- Asi se veria un Hello World en XHTML:
 
 ``` html
 <html xmlns="http://www.w3.org/1999/xhtml">
