@@ -146,4 +146,14 @@ Ejemplo de atributos eliminados que ahora corren por cuenta de CSS:
 - Border
 - Frame **(en el elemento table)**
 
+**¿QUE SIGNIFICA LA ETIQUETA DOCTYPE?**
+La etiqueta ***doctype*** indica el tipo de documento al navegador para que a este se le resulte mas facil interpretarlo, sobre todo respecto a la version.
+
+Se declara de la siguiente manera:
+
+``` html
+<!DOCTYPE html>
+```
+
+
 
