@@ -1,6 +1,4 @@
-# Repositorio de aprendizaje
-
-### 1. PRIMEROS PASOS
+## 1. Primeros pasos
 
 **TIPOLOGIAS DE LOS SITIOS WEB**
 
@@ -99,5 +97,5 @@ PD: Asi se codifica una propiedad en CSS.
     border-style:groove;
 }
 ```
-
+## 2. Desarrollo HTML
 
