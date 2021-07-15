@@ -99,3 +99,6 @@ PD: Asi se codifica una propiedad en CSS.
 ```
 ## 2. Desarrollo HTML
 
+Al momento de desarrollar una pagina web HTML, debemos analizar si hace falta incluir codigo JavaScript, PHP, tecnologia AJAX, etc. Esto debido a que siempre es bueno agregar dinamismo a nuestras paginas, y son estas herramientas las que nos brindaran todas esas soluciones a nuestras necesidades dinamicas.
+
+Es por eso que el codigo crece y a su vez se hace mas complejo, por ende puede que usuarios con versiones antiguas de navegadores puedan tener problemas por no tener soporte a estas tecnologias que se iran añadidiendo. Para solucionar eso debemos entender que existen maneras de parchear ciertos errores por compatibilidad u otras cosas, tambien existen herramientas que permiten soportar codigo nuevo en navegadores antiguos, ya sea de manera nativa o porteada. A ese proceso se le denomina **Cross-browsing** (soporte de navegacion entre varias versiones de navegadores).
