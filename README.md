@@ -106,3 +106,6 @@ Es por eso que el codigo crece y a su vez se hace mas complejo, por ende puede q
 ### ¿Donde desarrollar nuestras paginas web?
 Realmente existen tantas herramientas y software para el desarrollo de paginas web, que es dificil para alguien principiante escoger que software utilizar, asi que ire defrente por una recomendacion. Uilicen Visual Studio Code o cualquier otro editor de texto de su preferencia, ya que al ser tan ligeros son practicos y faciles de utlizar. Al desarrollar codigo HTML, CSS y JavaScript debemos tener en cuenta que son lenguajes interpretados asi que en teoria con cualquier editor de texto plano podriamos desarrollar paginas web, pero es importante tener en cuenta herramientas que nos permitan una codificacion mas limpia y eficiente.
 
+### ¿Cual es la version actual y definitiva de HTML?
+La version mas actual y estable es la verion 5, conociendose como HTML5. 
+Debemos saber que tambien existe una variante al html con una sintaxis similar a la de html, llamada xhtml. La gran diferencia es que esta te obliga a tener una sintaxis mas estricta y mas ordenada.
