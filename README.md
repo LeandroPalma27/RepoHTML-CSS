@@ -43,7 +43,7 @@ Como se veria una cabecera donde incluyo el uso de una hoja de cascada y un arch
 
  
 ```
-**Dato extra segun Wikipedia: La etiqueta meta podría ser utilizada por los robots de búsqueda para incluirla en las bases de datos de sus buscadores y mostrarla en el resumen de búsquedas o tenerla en cuenta durante las mismas. Estas meta tags son invisibles para los visitantes. Estas meta etiquetas también se usan para especificar cierta información técnica de la cual pueden valerse los navegadores para mostrar la página, como el grupo de caracteres usado, tiempo de expiración del contenido, posibilidad de dejar la página en cache o calificar el contenido del sitio ("para adultos", "violento", etc.). En el pasado, si un sitio web no contaba con las meta tags, era muy difícil obtener posiciones relevantes en el buscador, sin embargo actualmente las meta tags no son primordiales para posicionarse, ya que hay otros factores de mayor importancia.**
+
 
 **Contenido:** Es la parte principal de una pagina web. Es aqui donde se concentra la informacion mas importante de una pagina.
 
@@ -105,6 +105,12 @@ PD: Asi se codifica una propiedad en CSS.
     border-style:groove;
 }
 ```
+**DATO EXTRA SEGUN WIKIPEDIA!!**
+
+La etiqueta meta podría ser utilizada por los robots de búsqueda para incluirla en las bases de datos de sus buscadores y mostrarla en el resumen de búsquedas o tenerla en cuenta durante las mismas. Estas meta tags son invisibles para los visitantes. Estas meta etiquetas también se usan para especificar cierta información técnica de la cual pueden valerse los navegadores para mostrar la página, como el grupo de caracteres usado, tiempo de expiración del contenido, posibilidad de dejar la página en cache o calificar el contenido del sitio ("para adultos", "violento", etc.). 
+
+En el pasado, si un sitio web no contaba con las meta tags, era muy difícil obtener posiciones relevantes en el buscador, sin embargo actualmente las meta tags no son primordiales para posicionarse, ya que hay otros factores de mayor importancia.
+
 ## 2. Desarrollo HTML
 
 Al momento de desarrollar una pagina web HTML, debemos analizar si hace falta incluir codigo JavaScript, PHP, tecnologia AJAX, etc. Esto debido a que siempre es bueno agregar dinamismo a nuestras paginas, y son estas herramientas las que nos brindaran todas esas soluciones a nuestras necesidades dinamicas.
