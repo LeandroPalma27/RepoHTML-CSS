@@ -122,3 +122,12 @@ Debemos saber que tambien existe una variante al html con una sintaxis similar a
 
 </html>
 ```
+#### **DATO EXTRA!!**
+Cada version de HTML ha sido una revision de la anterior, partiendo desde la 2da version, algunas cosas se modificaron como ciertas etiquetas y se agregaron otras. Esto tambien afecto a CSS, ya que algunas etiquetas que se quitaron se agregaron a los archivos CSS, es decir que ahora para realizar ciertos diseños, se harian desde hoja de cascada.
+
+Ejemplo de atributos eliminados que ahora corren por cuenta de CSS:
+- Align
+- Alink, link, text, vlink **(en el elemento body)**
+- Background **(en el elemento body)**
+- Border
+- Frame **(en el elemento table)**
