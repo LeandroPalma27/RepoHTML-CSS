@@ -24,18 +24,26 @@
 
 **PARTES DE UNA PAGINA WEB**
 
-**Header o cabecera:** Es la parte en la que se toma toda la parte superior de una pagina web.
+**Header o cabecera:** Es la parte en la que se toma toda la parte superior de una pagina web. Esta sección contiene directivas que el navegador necesita para leer el documento correctamente. Entre estos elementos, encontramos el título de la página, las meta etiquetas, las funciones JavaScript y los enlaces de referencia.
+
 
 ``` html
+Como se veria una cabecera donde incluyo el uso de una hoja de cascada y un archivo javascript para añadir funcionalidades:
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Proyectos/Html-1/Styles/Estilos.css" type="text/css">
+    <script src="js/index.js" type="text/javascript"></script>
     <title>Facebook</title>
     <h1>HOLA</h1>
     <p>Esta es una prueba de lo que puede llegar a ser un header.</p>
 </head>
+
+ 
 ```
+**Dato extra segun Wikipedia: La etiqueta meta podría ser utilizada por los robots de búsqueda para incluirla en las bases de datos de sus buscadores y mostrarla en el resumen de búsquedas o tenerla en cuenta durante las mismas. Estas meta tags son invisibles para los visitantes. Estas meta etiquetas también se usan para especificar cierta información técnica de la cual pueden valerse los navegadores para mostrar la página, como el grupo de caracteres usado, tiempo de expiración del contenido, posibilidad de dejar la página en cache o calificar el contenido del sitio ("para adultos", "violento", etc.). En el pasado, si un sitio web no contaba con las meta tags, era muy difícil obtener posiciones relevantes en el buscador, sin embargo actualmente las meta tags no son primordiales para posicionarse, ya que hay otros factores de mayor importancia.**
 
 **Contenido:** Es la parte principal de una pagina web. Es aqui donde se concentra la informacion mas importante de una pagina.
 
@@ -131,3 +139,5 @@ Ejemplo de atributos eliminados que ahora corren por cuenta de CSS:
 - Background **(en el elemento body)**
 - Border
 - Frame **(en el elemento table)**
+
+
