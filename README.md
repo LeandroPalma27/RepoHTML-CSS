@@ -136,7 +136,7 @@ Debemos saber que tambien existe una variante al html con una sintaxis similar a
 
 </html>
 ```
-#### **DATO EXTRA!!**
+##### **DATO EXTRA!!**
 Cada version de HTML ha sido una revision de la anterior, partiendo desde la 2da version, algunas cosas se modificaron como ciertas etiquetas y se agregaron otras. Esto tambien afecto a CSS, ya que algunas etiquetas que se quitaron se agregaron a los archivos CSS, es decir que ahora para realizar ciertos diseños, se harian desde hoja de cascada.
 
 Ejemplo de atributos eliminados que ahora corren por cuenta de CSS:
@@ -154,7 +154,7 @@ Se declara de la siguiente manera:
 ``` html
 <!DOCTYPE html>
 ```
-### 3. Escribiendo codigo HTML
+## 3. Escribiendo codigo HTML
 
 #### **ETIQUETAS**
 Cuando queremos escribir codigo html debemos tener en cuenta el hecho de que es un lenguaje de marcado y que funciona a traves de etiquetas, es por eso que hay que estar atentos a la norma de codificacion para la estructura de nuestro sitio web. 
@@ -196,7 +196,7 @@ Etiqueta de entrada donde utilizamos atributos para indicar para que se usa la e
 <input placeholder="Contraseña" type="password" id="pass">
 ```
 
-#### **CONCLUSION!!**
+##### **CONCLUSION!!**
 Debemos tener en cuenta que Cuando declaramos por completo la etiqueta, podemos observar, entonces, cuatro interventores: ***la etiqueta propiamente dicha, los atributos, los valores de los atributos y el contenido en cuestion*** como en el siguiente ejemplo:
 
 ``` html
