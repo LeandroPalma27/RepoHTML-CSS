@@ -196,7 +196,7 @@ Etiqueta de entrada donde utilizamos atributos para indicar para que se usa la e
 <input placeholder="Contraseña" type="password" id="pass">
 ```
 
-##### **CONCLUSION!!**
+###### **CONCLUSION!!**
 Debemos tener en cuenta que Cuando declaramos por completo la etiqueta, podemos observar, entonces, cuatro interventores: ***la etiqueta propiamente dicha, los atributos, los valores de los atributos y el contenido en cuestion*** como en el siguiente ejemplo:
 
 ``` html
