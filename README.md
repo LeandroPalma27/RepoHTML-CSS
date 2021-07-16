@@ -154,6 +154,53 @@ Se declara de la siguiente manera:
 ``` html
 <!DOCTYPE html>
 ```
+### 3. Escribiendo codigo HTML
 
+#### **ETIQUETAS**
+Cuando queremos escribir codigo html debemos tener en cuenta el hecho de que es un lenguaje de marcado y que funciona a traves de etiquetas, es por eso que hay que estar atentos a la norma de codificacion para la estructura de nuestro sitio web. 
+
+La etiquetas siempre se definen con una apertura y un cierre, casi en tu totalidad de tipos de eitquetas. Ejemplos de ellas serian:
+
+``` html
+<h1>Hola</h1>
+<p>Este es un parrafo de texto.</p>
+<ul>Esta es una lista.</ul>
+<u>Esta etiqueta me permite subrayar texto.</u>
+```
+Como se observa, siempre se inicia y se cierra incluyendo una diagonal en el cierre.
+
+#### **ATRIBUTOS**
+Los atributos en html ***son referencias y directivas*** que podemos incluir a una etiqueta de html, con la cual podemos definir valores y que estos nos permitan darles caracteristicas en particular ***(a las etiquetas)***. Todo atributo contiene un valor, ya sea numerico o no, y este debe estar siempre cerrado entre comillas dobles.
+
+Algunas de las cosas que se pueden agregar son de caracter estetico como la altura, color, posicion, etc. Tambien podemos asignar una identidad que sea interpretada por codigo JavaScript, tambien podemos hacer referencia a directamente cualquier recurso como un enlace web, un archivo JavaScript, un jsp, un html, un css, etc. 
+
+Ejemplos:
+
+``` html
+Contenedor con atributo para estilos (desde un CSS y con una propiedad como valor en el atributo sytle):
+<div class="container" style="margin-top:150px; padding:20px;" ></div>
+
+Script para inyectar un archivo JavaScript que le de dinamismo a nuestra pagina web:
+<script src="js/index.js" type="text/javascript"></script>
+
+Etiqueta de enlace para utilizar una hoja de cascada en etiquetas que esten dentro del body, a traves de un atributo class:
+<link rel="stylesheet" href="/Proyectos/Html-1/Styles/Estilos.css" type="text/css">
+
+Etiqueta de enlace a un archivo .html:
+<a href="registrarse.html">Registrarme</a>
+
+Etiqueta de enlace para utilizar una libreria de css para nuestra pagina web, tambien se utiliza el atributo rel para indicar de que trata el enlace utilizado:
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+Etiqueta de entrada donde utilizamos atributos para indicar para que se usa la entrada, que tipo de entrada es (en este caso de tipo password para la seguridad) y un identificador de referencia para que una inyeccion de JavaScript la identifique y sepa que hacer con aquella entrada:
+<input placeholder="Contraseña" type="password" id="pass">
+```
+
+#### **CONCLUSION!!**
+Debemos tener en cuenta que Cuando declaramos por completo la etiqueta, podemos observar, entonces, cuatro interventores: ***la etiqueta propiamente dicha, los atributos, los valores de los atributos y el contenido en cuestion*** como en el siguiente ejemplo:
+
+``` html
+<etiqueta atributo1="" atributo2="">Contenido en cuestion.</etiqueta>
+```
 
 
