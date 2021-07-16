@@ -202,7 +202,32 @@ Debemos tener en cuenta que Cuando declaramos por completo la etiqueta, podemos 
 ``` html
 <etiqueta atributo1="" atributo2="">Contenido en cuestion.</etiqueta>
 ```
+#### **TIPOS DE ETIQUETAS**
 
+Existen etiquetas de linea y de bloque, la diferencia entre ellas es que las de linea ocupan solo el espacio que necesitan para mostrar su contenido en cuestion, mientras que las de bloque ocupan todo el espacio que se les de disponible y ocuparan eso, asi no este toda el area llena de contenido en cuestion. Si la linea de marcado anterior ya esta ocupada, tomaran la siguiente porque las etiquetas de bloque toman lineas nuevas si o si.
+
+Ejemplo:
+
+``` html
+
+CASO 1
+Por ejemplo, en este caso en una misma linea del DOM, hemos marcado una etiqueta "a" y despues de tomar el espacio necesario para mostrar el contenido en cuestion, se marco la etiqueta "small", donde tambien se esta tomando solo el espacio que ocupa el contenido en cuestion, quedando espacio libre en esa misma linea del DOM.
+<body>
+    <a href="https://facebook.com">Entra a nuestro facebook!!</a> <small>Todos los derechos reservados.</small>
+</body>
+
+CASO 2
+En este caso vemos como a pesar de poner un boton y un enlace de etiqueta "a", estos se rendrizan en la siguiente linea y no en el espacio que queda de la anterior. Eso se debe a que hemos colocado ese marcado dentro de un div, siendo la etiqueta div la que es de tipo bloque, por lo tanto va a ocupar una linea nueva y marcara el espacio necesario para las etiquetas que estan dentro del div.
+<body>
+    <a href="https://facebook.com">Entra a nuestro facebook!!</a> <small>Todos los derechos reservados.</small>
+
+    <div>
+        <a href="https://twitter.com">Entra a twitter</a>
+        <button type="button" onclick="facebook();">FACEBOOK</button>
+    </div>
+</body>
+
+```
 
 
 
