@@ -289,3 +289,15 @@ STYLE = Sirve para indicar de manera directa alguna propiedad de CSS.
 
 TITLE = Añade titulo a un elemento/etiqueta, en caso de que pasemos el mouse por el elemento se visualizara el titulo.
 
+##### **ATRIBUTOS DE EVENTOS EN HTML**
+Cuando hablamos de eventos en HTML, nos referimos a aquellos atributos que se consideran una accion o funcion como tal, como por ejemplo el atributo de dar click (onClick), siendo ese un evento en html, que generalmente cargara una accion o funcion JavaScript puesta en el documento HTML en cuestion, indicada por una funcion.
+
+Ejemplo:
+``` html
+<button id="botonEnviar" type="button" onClick="enviarPag();">Enviar</button>
+<script type="text/javascript">
+function enviarPag() {
+window.location = "https://facebook.com";
+}
+</script>
+```
