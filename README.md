@@ -288,3 +288,4 @@ var elemento_para_funcion = document.getElementsByClassName(Funcion1);
 STYLE = Sirve para indicar de manera directa alguna propiedad de CSS.
 
 TITLE = Añade titulo a un elemento/etiqueta, en caso de que pasemos el mouse por el elemento se visualizara el titulo.
+
