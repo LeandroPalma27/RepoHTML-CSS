@@ -239,6 +239,40 @@ dentro del div.
 </body>
 
 ```
+#### **ETIQUETAS MAS USADAS EN HTML
+
+Realmente no hay una manera de definir las etiquetas mas usadas, ya que eos dependera mucho que cada persona y de que tipo de pagina web estan desarrollando. Existen un grupo de etiquetas fundamentales de dominar como la etiqueta div o etiquetas para listas, formularios y tablas. 
+
+Mucho mas alla de eso es bueno profundizar en las etiquetas que son las principales, a continuacion mostrare en codigo html con algunos ejemplos:
+
+``` html
+<div class="">
+    Para un parrafo:
+      <p>
+          <p style="font-weight: bold;">¿Que es un lenguaje compilado?</p><br>
+          Un lenguaje compilado es aquel que necesita ser trasformado a lenguaje 
+          de maquina a traves de la compilacion. 
+      </p>
+      Para una lista simple:
+      <ul>
+          <li>Uno</li>
+          <li>Dos</li>
+          <li>Tres</li>
+          <li>Cuatro</li>
+          <li>Cinco</li>
+      </ul>
+      Para una lista enumerada:
+      <ol>
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+        <li>Cinco</li>
+    </ol>
+  </div>
+```
+##### DATO EXTRA!!!
+El atributo alt, presente en la etiqueta img, sirve para indicar que tipo de imagen estamos mostrando, en caso de que por alguna razon esta no se cargue en el dom.
 
 
 
