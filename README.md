@@ -239,7 +239,7 @@ dentro del div.
 </body>
 
 ```
-#### **ETIQUETAS MAS USADAS EN HTML
+#### **ETIQUETAS MAS USADAS EN HTML**
 
 Realmente no hay una manera de definir las etiquetas mas usadas, ya que eos dependera mucho que cada persona y de que tipo de pagina web estan desarrollando. Existen un grupo de etiquetas fundamentales de dominar como la etiqueta div o etiquetas para listas, formularios y tablas. 
 
@@ -274,5 +274,17 @@ Mucho mas alla de eso es bueno profundizar en las etiquetas que son las principa
 ##### DATO EXTRA!!!
 El atributo alt, presente en la etiqueta img, sirve para indicar que tipo de imagen estamos mostrando, en caso de que por alguna razon esta no se cargue en el dom.
 
+#### **ATRIBUTOS MAS USADOS EN HTML**
 
+Dentro de los atributos mas usados podemos encontrar a los siguientes:
 
+ID = Sirve como identificador unico para una etiqueta, con el fin de que codigo JavaScript lo interprete y realice acciones especificas sobre esta.
+
+CLASS = Sirve para referenciar una clase o lista de clases. Estas son interpretadas por documentos CSS o JavaScript, como por ejemplo alguna propiedad de estilo en CSS o alguna funcion especifica codificada en JS a traves del metodo de js:
+
+``` js
+var elemento_para_funcion = document.getElementsByClassName(Funcion1);
+```
+STYLE = Sirve para indicar de manera directa alguna propiedad de CSS.
+
+TITLE = Añade titulo a un elemento/etiqueta, en caso de que pasemos el mouse por el elemento se visualizara el titulo.
