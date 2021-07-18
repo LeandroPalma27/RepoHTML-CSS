@@ -301,3 +301,20 @@ window.location = "https://facebook.com";
 }
 </script>
 ```
+##### **ATRIBUTOS DE SELECCION EN HTML**
+Cuando queremos centrarnos en un especifico elemento html del dom y seleccionarlo, podemos usar atributos de seleccion como el ***accesskey*** o el ***onfocus***, el primero para acceder a traves de los atajos del navegador (en chrome es alt + la tecla de atajo colocada en el accesKey) y el segundo para realizar una accion en el elemento que estamos haciendo foco.
+
+Ejemplo:
+
+``` html
+accesskey:
+<input placeholder="Ingrese su nombre" type="text" accesskey="n">
+onfocus:
+<input id="idFoto" placeholder="Ingrese su contraseña" type="password" accesskey="p"
+    onfocus="myFunction(this.id);"><br>
+  <script type="text/javascript">
+    function myFunction(x) {
+      document.getElementById(x).style.background = "blue";
+    }
+  </script>
+```
