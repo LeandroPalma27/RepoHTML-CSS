@@ -38,12 +38,22 @@
       window.location = "https://facebook.com";
     }
   </script>
-  <input placeholder="Ingrese su nombre" type="text" accesskey="n">
-  <input id="idFoto" placeholder="Ingrese su contraseña" type="password" accesskey="p"
-    onfocus="myFunction(this.id);"><br>
+  <form>
+    <input id="idNombre" placeholder="Ingrese su contraseña" type="password" accesskey="p"
+      onfocus="myFunction(this.id);"><br>
+    <input id="idApellido" placeholder="Ingrese su apellido" type="text" onblur="myFunction2();">
+  </form>
   <script type="text/javascript">
     function myFunction(x) {
       document.getElementById(x).style.background = "blue";
+    }
+    function myFunction2() {
+      var contenido = document.getElementById("idApellido").value;
+      if (contenido != undefined) {
+        console.log(contenido);
+      } else {
+        console.log("XD");
+      }
     }
   </script>
   <br>

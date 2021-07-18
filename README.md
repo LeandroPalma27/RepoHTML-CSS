@@ -317,4 +317,17 @@ onfocus:
       document.getElementById(x).style.background = "blue";
     }
   </script>
+onblur:
+<input id="idApellido" placeholder="Ingrese su apellido" type="text" onblur="myFunction2();">
+```
+``` js
+La funcion en javascript:
+function myFunction2() {
+      var contenido = document.getElementById("idApellido").value;
+      if (contenido != undefined) {
+        console.log(contenido);
+      } else {
+        console.log("XD");
+      }
+    }
 ```
