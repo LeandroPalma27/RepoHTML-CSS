@@ -333,3 +333,4 @@ function myFunction2() {
 ```
 
 ## 4. Introduccion al HTML semantico
+Cuando hablamos de html semantico, nos referimos al uso correcto del lenguaje html en el marcado de estructura de nuestra pagina web. Como por ejemplo cuando marcamos cajas (div) para realizar el correcto diseño de una interfaz de usuario.
