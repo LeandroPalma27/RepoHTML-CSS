@@ -334,3 +334,7 @@ function myFunction2() {
 
 ## 4. Introduccion al HTML semantico
 Cuando hablamos de html semantico, nos referimos al uso correcto del lenguaje html en el marcado de estructura de nuestra pagina web. Como por ejemplo cuando marcamos cajas (div) para realizar el correcto diseño de una interfaz de usuario.
+
+### Extra:
+El lado azul de una caja cuando le damos a inspeccionar en un navegador, es el tamaño real de la caja.
+El lado naranja es el margen de la caja en cuestion, puede editarse y aumentarse o disminuirse.
