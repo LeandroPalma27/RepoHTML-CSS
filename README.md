@@ -338,3 +338,5 @@ Cuando hablamos de html semantico, nos referimos al uso correcto del lenguaje ht
 ### Extra:
 El lado azul de una caja cuando le damos a inspeccionar en un navegador, es el tamaño real de la caja.
 El lado naranja es el margen de la caja en cuestion, puede editarse y aumentarse o disminuirse.
+
+BR: Lo que hace es completar la linea con un espacio en blanco, dando a entender que es como si fuera un salto de linea.
