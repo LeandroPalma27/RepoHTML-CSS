@@ -344,3 +344,9 @@ BR: Lo que hace es completar la linea con un espacio en blanco, dando a entender
 ROW en bootstrap: sirve para darle a entender al navegador que el contenedor se dividira en filas en funcion a su contenido. Por ejemplo si en un contenedor tengo 3 listas y esta la clase "row" presente, cada lista estara en su propia fila, con su tamaño correspondiente.
 
 ATRIBUTO CONTROLS: Sirve para decirle a navegador que nos muestre botones de control para archivos multimedia como videos y audios.
+
+Formularios: Recordar la parte de seguridad en nuestra pagina web, hacer todo en el backend para evitar inyecciones de codigo o scripts para hackeo de informacion. Utilizar metodos en encriptacion en los formularios, post, etc.
+
+Metas: Los metas son etiquetas que describen informacion, podria usarse para definir el tipo de codificacion de caracteres, palabras clave de una pagina para posicionarla mejor, copyright de una empresa, autor, descripcion, etc.
+
+Header y nav: el header es el encabezado de una pagina web, para eso se utiliza una etiqueta llamada nav que nos estructura una barra de navegacion dentro del header.

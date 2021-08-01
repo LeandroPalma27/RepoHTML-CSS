@@ -6,7 +6,7 @@ $(document).ready(function () {
         let logi = $("#logi").val();
         let pass = $("#pass").val();
 
-            alert(nombre+" "+apellidos+" "+correo+" "+logi+" "+pass);
+            alert("Nombres y apellidos: "+nombre+" "+apellidos+"\nCorreo electronico: "+correo+"\nNombre de usuario: "+logi);
         
     });
 });
