@@ -7,3 +7,17 @@ h1{
 .parrafo{
     color: chocolate;
 }
+#causita{
+    color: crimson;
+}
+[quechuchafuecasusita="sipe"]{
+    color: goldenrod;
+}
+
+.parrafo b {
+    color:lawngreen;
+}
+
+h3:hover{
+    color: lightseagreen;
+}

@@ -350,3 +350,39 @@ Formularios: Recordar la parte de seguridad en nuestra pagina web, hacer todo en
 Metas: Los metas son etiquetas que describen informacion, podria usarse para definir el tipo de codificacion de caracteres, palabras clave de una pagina para posicionarla mejor, copyright de una empresa, autor, descripcion, etc.
 
 Header y nav: el header es el encabezado de una pagina web, para eso se utiliza una etiqueta llamada nav que nos estructura una barra de navegacion dentro del header.
+
+SELECTORES:
+-Global
+-Etiqueta
+-Clase
+-ID
+-Atributo
+-Descendencia
+-Pseudoclase
+Recuerda que se pueden combinar los tipos de selctores, especificamente cuando se habla de descendencia y pseudoclase.
+
+``` css
+*{
+    color:rgba(119, 0, 255, 0.904);
+}
+h1{
+    color:brown;
+}
+.parrafo{
+    color: chocolate;
+}
+#causita{
+    color: crimson;
+}
+[quechuchafuecasusita="sipe"]{
+    color: goldenrod;
+}
+
+.parrafo b {
+    color:lawngreen;
+}
+
+h3:hover{
+    color: lightseagreen;
+}
+```
