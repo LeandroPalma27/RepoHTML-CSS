@@ -13,3 +13,12 @@ A continuacion, las jerarquias se mostraran:
 4. Clases, pseudoclases, atributos
 
 5. Elementos, pseudoelementos
+
+El important, se escribe de la siguiente manera, en cualquier tipo de selector:
+
+```css
+.cocafonky{
+color: blue !important;
+} 
+
+```
