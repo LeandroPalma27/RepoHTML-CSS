@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-form {
+    font-size: 1px;
+    background-color: rgb(133, 10, 10);
+    color: white;
+    width: 683px;
+    height: 384px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-form__h2 {
+    font-size: 30em;
+    font-weight: bold;
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+}

@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-p {
+    width: 100vw;
+    height: 96px;
+}
+
+.contenedor-p__div {
+    width: 50vw;
+    height: 12.5vh;
+    float: left;
+}
+
+.display-h3{
+    display: inline;
+}

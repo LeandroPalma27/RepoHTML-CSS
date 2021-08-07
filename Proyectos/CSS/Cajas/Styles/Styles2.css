@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    background-color: teal;
+    color: white;
+    display: inline-block;
+}
