@@ -1,9 +1,11 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     border: 0px;
+    font-size: 1px;
 }
-.content{
+
+.content {
     background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 100vh;
@@ -14,18 +16,35 @@
 
 .content-form {
     font-size: 1px;
-    background-color: rgb(133, 10, 10);
-    color: white;
-    width: 683px;
-    height: 384px;
+    color: rgb(255, 252, 53);
+    -webkit-text-stroke: rgb(207, 21, 21);
+    width: 1px;
+    height: 1px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.content-form__h2 {
+.content-form__img {
+    width: 50vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Img/cityscape-artwork-spider-man-blue-wallpaper-preview.jpg);
+}
+
+.content-form__divTexto {
+    width: 364px;
+    height: 106px;
+    position: absolute; 
     font-size: 30em;
     font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
 }
+
+
