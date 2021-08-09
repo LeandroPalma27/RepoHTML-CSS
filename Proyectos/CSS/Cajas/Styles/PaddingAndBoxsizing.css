@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedor-parrafos {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    color: lavender;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}

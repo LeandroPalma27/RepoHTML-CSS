@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor-parrafos {
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    color: lavender;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+}
+
