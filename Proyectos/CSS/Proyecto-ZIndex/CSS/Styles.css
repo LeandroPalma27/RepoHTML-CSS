@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+}
+
+.caja1{
+background-color: darkgoldenrod;
+position: relative;
+top: 80px;
+left: 40px;
+z-index: 100;
+}
+
+.caja2{
+    background-color: blueviolet;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    z-index: 50;
+}
+
+.caja3{
+    background-color: chartreuse;
+    position: relative;
+    z-index: 10;
+}

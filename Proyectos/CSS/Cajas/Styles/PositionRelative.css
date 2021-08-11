@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.caja1{
+background-color: darkgoldenrod;
+}
+
+.caja2{
+    background-color: blueviolet;
+    position: relative;
+    top: 150px;
+}
+
+.caja3{
+    background-color: chartreuse;
+}
+
+.caja4{
+    background-color: chocolate;
+}
