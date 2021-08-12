@@ -210,6 +210,14 @@ EN QUE CASOS SE USARIA:
 -PUBLICIDAD
 -ETC
 
+```css
+.cajita{
+    background-color: red;
+    width: 100px;
+    position: fixed;
+}
+```
+
 #### Position: sticky
 
 Es una mezcla entre fixed y relative, osea, conserva el espacio que tiene al principio y su posicion parte de ahi.
@@ -217,4 +225,13 @@ Es una mezcla entre fixed y relative, osea, conserva el espacio que tiene al pri
 Otra cosa: Tener en cuenta que al tener propiedades de relative, conservara su espacio. Entonces si le damos un top de 100px, a partir de cubrir esos 100px con el scroll el elemento actuara como un fixed.
 
 ATENTO A ESTO.
+
+
+```css
+.cajita{
+    background-color: red;
+    width: 100px;
+    position: sticky;
+}
+```
 
