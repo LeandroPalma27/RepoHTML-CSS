@@ -106,6 +106,7 @@ Para realizar una sintaxis mas limpia y ligera, seria de la siguiente manera:
 
 OJO: La propiedad line-height sirve para que podamos cambiar el tamaño de espaciado entre linea para un texto.
 OJO: La propiedad text-shadow sirve para que podamos ponerle sombra a un texto.
+OJO: border-radius es para darle un efecto circular a una caja.
 
 ```css
 p{
