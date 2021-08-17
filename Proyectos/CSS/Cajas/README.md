@@ -236,3 +236,75 @@ ATENTO A ESTO.
 }
 ```
 
+### DISPLAY
+
+La propiedad display se encarga de modificar el comportamiendo de las cajas (elementos) en html. Ya no tiene que ver tanto con las relaciones entre ellas, asi que por ese lado es un poco mas sencillo de entender.
+
+#### Display: inline-block
+
+Sirve para darle a un elemento las caracteristicas y funcionalidades de bloque a un elemento de linea. Se podria usar para situar varios div en un solo bloque
+
+OJO: Para lo anterior tambien puede ser de ayuda:
+-Flexbox
+-Grid
+-Float
+
+#### Valores de display ya vistos:
+
+Block: Transforma un elemento de linea a uno enteramente de bloque.
+Inline: Transforma un elemento de bloque a uno de linea.
+
+#### Display: Flex and Grid
+
+Estos valores hacen que las cajas se comporten como si fueran bloques. La combinacion de las dos maneras es lo mas optimo para una correcta maquetacion web.
+
+##### inline-flex y inline-grid
+
+Siven para que podemos utilizar propiedades de flex o grid dentro de un elemento inline.
+
+### OVERFLOW
+
+La propiedad overflow refiere al contenido que sobra de la pantalla, es decir, el contenido que se ve cuando algo se tiene que scrollear y tambien esta fuera de sus dimensiones del contenedor.
+
+#### Overflow: auto
+
+Permite que se pueda scrollear dentro de la caja si es que hay texto que sobresalga las dimensiones de su contenedor, si detecta que es necesario, lo hara, ai hace falta solo en x, lo hara, si hace falta solo en y, lo hara, si hace falta en los dos, lo hara en los dos.
+
+```css
+div{
+    overflow: auto;
+}
+```
+
+OJO: Los SHORTHAND en css son mas que abreviaciones de propiedades que tienen mas especificaciones.
+OJO: hidden en css signfica que quites algo en especifico del DOM.
+
+#### Overflow: scroll
+
+Muestra el scroll ya sea arriba o abajo, sin importar si el texto sobresale o no.
+
+#### Overflow: hidden
+
+Quita el scroll ya sea arriba o abajo, sin importar si el texto sobresale o no.
+
+#### Overflow: visible
+
+Hace que el texto que sobresalga igual se vea.
+
+OJO: Overflow es un shorthand, si queremos modificar especificamente un eje, debemos colocar:
+
+```css
+div{
+    overflow-x: scroll;
+}
+```
+
+OJO: EN EL PROYECTO OVERFLOW2, SE PUEDE OBSERVAR QUE CON UN HIDDEN PODEMOS OCULTAR TEXTO QUE SOBRESALGA DE UNA CAJA, SIEMPRE Y CUANDO SEA HIDDEN Y NO VISIBLE. TAMBIEN HICE UNA ANIMACION PIOLA CON ESO (REVISAR).
+
+### FLOAT
+
+Sirve para posicionar cajas en un mismo bloque, una al lado de la otra con float left o right.   
+
+Ya no se usa mucho, es irrelevante, aunque hice un proyecto para los casos en el que podria usarse como fuente de maquetacion web.
+
+

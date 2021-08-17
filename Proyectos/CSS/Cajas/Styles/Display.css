@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    background-color: yellowgreen;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}

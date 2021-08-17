@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 3px solid blue;
+    width: 500px;
+    height: 500px;
+    background: gray;
+    overflow:auto;
+    padding: 10px;
+}
+img{
+    float: left;
+    width: 256px;
+    height: 256px;
+    margin-right: 18px;
+}

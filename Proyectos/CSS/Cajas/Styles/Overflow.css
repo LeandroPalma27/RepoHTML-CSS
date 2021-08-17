@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 5px;
+    display: inline-block;
+}
+
+.overflow1{
+    width: 200px;
+    height: 180px;
+    border: 5px solid red;
+    overflow: auto;
+}
+
+.overflow2{
+    width: 200px;
+    height: 180px;
+    border: 5px solid red;
+    overflow: scroll;
+}
+
+.overflow3{
+    width: 200px;
+    height: 180px;
+    border: 5px solid red;
+    overflow: scroll;
+    overflow-x: auto;
+}
+
+.overflow4{
+    width: 200px;
+    height: 180px;
+    border: 5px solid red;
+    overflow: visible;
+}
+
