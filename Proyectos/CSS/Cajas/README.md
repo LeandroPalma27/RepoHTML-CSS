@@ -307,4 +307,6 @@ Sirve para posicionar cajas en un mismo bloque, una al lado de la otra con float
 
 Ya no se usa mucho, es irrelevante, aunque hice un proyecto para los casos en el que podria usarse como fuente de maquetacion web.
 
+OJOOOO: A el margin no le afecta el border-box.
+
 
