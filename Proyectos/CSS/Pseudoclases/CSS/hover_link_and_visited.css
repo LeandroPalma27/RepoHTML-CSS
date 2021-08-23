@@ -25,8 +25,11 @@ div:hover{
     display: block;
     margin: 20px;
     font-size:100px;
-    color: blueviolet;
 }
 a:link{
     color:blue;
+}
+
+a:visited{
+    color: yellow;
 }
