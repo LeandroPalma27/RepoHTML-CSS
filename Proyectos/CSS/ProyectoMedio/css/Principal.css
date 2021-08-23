@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/wallpapersden.com_red-abstract_3559x2000.jpg);
+    background-size: 100% 100%;
+}
+
+a {
+    display: inline-block;
+    width: 125px;
+    height: 60px;
+}
+
+ul {
+    display: block;
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    width: 125px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+li a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #fff;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.contenedor-navbar {
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(94, 0, 0);
+    box-shadow: 0px 0px 20px rgb(94, 0, 0);
+}
+
+.navbar-level1 {
+    width: 100vw;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(136, 43, 43);
+}
+
+.navbar-level1::first-letter {
+    color: rgb(211, 211, 211);
+}
+
+.navbar-level2 {
+    display: block;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content-ul {
+    width: 100vw;
+    height: 60px;
+}
+
+#more{
+    transition: font-size 1s;
+}
+
+#more:active{
+    font-size: 20px;
+}
