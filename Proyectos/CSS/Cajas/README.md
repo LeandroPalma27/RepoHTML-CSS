@@ -310,3 +310,8 @@ Ya no se usa mucho, es irrelevante, aunque hice un proyecto para los casos en el
 OJOOOO: A el margin no le afecta el border-box.
 
 
+
+
+
+
+

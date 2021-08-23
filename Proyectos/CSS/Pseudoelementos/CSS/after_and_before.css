@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    margin-left: 100px;
+}
+
+b::before{
+    content: 'me baje';
+    color: blueviolet;
+}
+
+b::after{
+    content:'la ventana';
+    color: brown;
+}
