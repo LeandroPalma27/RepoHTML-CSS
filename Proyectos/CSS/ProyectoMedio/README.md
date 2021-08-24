@@ -19,6 +19,4 @@ Box-sizing - Listo
 Display: Inline, inline-block, block, margin, border, padding. - listo
 
 
-Falta float, overflow, positions, objects.
-
 

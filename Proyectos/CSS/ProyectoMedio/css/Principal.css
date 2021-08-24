@@ -4,22 +4,27 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     background-image: url(../img/wallpapersden.com_red-abstract_3559x2000.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
 }
 
 a {
     display: inline-block;
-    width: 125px;
+    width: 110px;
     height: 60px;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
 ul {
     display: block;
     display: flex;
-    width: 100vw;
+    width: 700px;
     height: 60px;
     justify-content: center;
     margin: 0;
@@ -28,14 +33,25 @@ ul {
 
 li {
     display: inline-block;
-    width: 125px;
+    width: 110px;
     height: 60px;
     text-align: center;
     vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
     box-sizing: border-box;
     color: #fff;
+    z-index: 20;
+}
+
+span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: antiquewhite;
+}
+
+img {
+    width: 10px;
+    height: 10px;
 }
 
 li a {
@@ -50,27 +66,27 @@ li a:hover {
 
 li:hover {
     color: #fff;
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(255, 255, 255);
     cursor: pointer;
 }
 
 .contenedor-navbar {
-    width: 100vw;
+    width: auto;
     height: 120px;
     background-color: rgb(94, 0, 0);
-    box-shadow: 0px 0px 20px rgb(94, 0, 0);
 }
 
 .navbar-level1 {
-    width: 100vw;
+    width: auto;
     height: 60px;
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: bold;
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+    padding: 10px 550px;
     align-items: center;
     text-align: center;
+    box-sizing: border-box;
     border-bottom: 1px solid rgb(136, 43, 43);
 }
 
@@ -81,7 +97,7 @@ li:hover {
 .navbar-level2 {
     display: block;
     justify-content: space-between;
-    width: 100vw;
+    width: auto;
     height: 60px;
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -89,14 +105,157 @@ li:hover {
 }
 
 .content-ul {
-    width: 100vw;
+    width: auto;
     height: 60px;
+    display: flex;
+    justify-content: center;
 }
 
-#more{
+#more {
     transition: font-size 1s;
 }
 
-#more:active{
+#more:active {
     font-size: 20px;
+}
+
+.content-ofertas {
+    width: auto;
+    height: 500px;
+}
+
+.levels-photos {
+    width: auto;
+    height: 460px;
+    position: relative;
+}
+
+.levels-pointers {
+    width: auto;
+    height: 40px;
+    position: relative;
+}
+
+.paginacion {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pointer {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanners {
+    display: none;
+}
+
+.photo1 {
+    width: auto;
+    height: 460px;
+    display: flex;
+    border: 3px groove rgb(150, 20, 20);
+    box-sizing: border-box;
+    display: none;
+}
+
+.img-photo {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.photo2 {
+    width: auto;
+    height: 460px;
+    display: flex;
+    border: 3px groove rgb(150, 20, 20);
+    box-sizing: border-box;
+    display: none;
+}
+
+.photo3 {
+    width: auto;
+    height: 460px;
+    display: flex;
+    border: 3px groove rgb(150, 20, 20);
+    box-sizing: border-box;
+}
+
+.photo4 {
+    width: auto;
+    height: 460px;
+    display: flex;
+    border: 3px groove rgb(150, 20, 20);
+    box-sizing: border-box;
+    display: none;
+}
+
+.photo5 {
+    width: auto;
+    height: 460px;
+    display: flex;
+    border: 3px groove rgb(150, 20, 20);
+    box-sizing: border-box;
+    display: none;
+}
+
+.photo6 {
+    width: auto;
+    height: 460px;
+    display: flex;
+    border: 3px groove rgb(150, 20, 20);
+    box-sizing: border-box;
+    display: none;
+}
+
+.flecha-izq {
+    float: left;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1305px;
+    right: 0;
+    margin: auto 0;
+    z-index: 2;
+}
+
+.flecha-der {
+    float: right;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 6px;
+    right: 0;
+    margin: auto 0;
+    z-index: 3;
+}
+
+.pointer-3 {
+    filter: brightness(200%);
+}
+
+.foto-flecha {
+    width: 40px;
+    height: 40px;
+}
+
+.foto-flecha:hover{
+    filter: brightness(200%);
 }
