@@ -1,18 +1,18 @@
 ### SELECTORES:
 
--Global
+-Global = *{}
 
--Etiqueta
+-Etiqueta = div{}
 
--Clase
+-Clase = .contenedor{}
 
--ID
+-ID = #hola{}
 
--Atributo
+-Atributo = [quechuchafuecasusita="sipe"]{}
 
--Descendencia
+-Descendencia = div .contenedor{}
 
--Pseudoclase
+-Pseudoclase y pseudoelementos = :hover{} o ::firstletter{}
 
 Recuerda que se pueden combinar los tipos de selctores, especificamente cuando se habla de descendencia y pseudoclase.
 

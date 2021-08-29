@@ -6,7 +6,7 @@ A continuacion, las jerarquias se mostraran:
 
 1. !Important
 
-2. Estilos de linea
+2. Estilos de linea = <p style="background-color: #fff;">HOLA mano</p>
 
 3. Identificadores (ID)
 

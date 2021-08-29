@@ -30,16 +30,14 @@
 ``` html
 Como se veria una cabecera donde incluyo el uso de una hoja de cascada y un archivo javascript para añadir funcionalidades:
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Proyectos/Html-1/Styles/Estilos.css" type="text/css">
-    <script src="js/index.js" type="text/javascript"></script>
+<header>
     <title>Facebook</title>
     <h1>HOLA</h1>
     <p>Esta es una prueba de lo que puede llegar a ser un header.</p>
-</head>
+    <nav>
+        HOLAAAAAAAAAAAAAAA
+    </nav>
+</header>
 
  
 ```
@@ -51,7 +49,6 @@ Como se veria una cabecera donde incluyo el uso de una hoja de cascada y un arch
 
 ``` html
 <body>
-
     <!-- Sidebar -->
     <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
         <h3 class="w3-bar-item">Menu</h3>
@@ -68,14 +65,13 @@ Como se veria una cabecera donde incluyo el uso de una hoja de cascada y un arch
             <img src="https://www.w3schools.com/w3css/img_car.jpg" alt="Car" style="width:50%" class="borde">
         </div>
     </div>
-
 </body>
 ```
 **Footer o pie de pagina:** Es netamente la parte inferior de la pagina, al igual que en la cabecera, se toma toda esa parte pero en este caso inferior para colocar informacion en especifico. Generalmente se usa para poner politicas de privacidad, correos electronicos para contacto, etc.
 
 ``` html
 <footer>
-    <center><small>Todos los derechos reservados. 2021 </small></center>
+    <small>Todos los derechos reservados. 2021 </small>
 </footer>
 ``` 
 **DATO EXTRA!!**
@@ -110,6 +106,12 @@ PD: Asi se codifica una propiedad en CSS.
 La etiqueta ***meta*** podría ser utilizada por los robots de búsqueda para incluirla en las bases de datos de sus buscadores y mostrarla en el resumen de búsquedas o tenerla en cuenta durante las mismas. Estas meta tags son invisibles para los visitantes. Estas meta etiquetas también se usan para especificar cierta información técnica de la cual pueden valerse los navegadores para mostrar la página, como el grupo de caracteres usado, tiempo de expiración del contenido, posibilidad de dejar la página en cache o calificar el contenido del sitio ("para adultos", "violento", etc.). 
 
 En el pasado, si un sitio web no contaba con las meta tags, era muy difícil obtener posiciones relevantes en el buscador, ***sin embargo actualmente las meta tags no son primordiales para posicionarse***, ya que hay otros factores de mayor importancia.
+
+## ¿Que es el SEO?
+
+El SEO, por su siglas en ingles, refiere a el motor de optimizacion de busquedas. Es un termino sumamente conocido en el desarrollo web y en el marketing digital. 
+
+Al desarrollar nuestros sitios y aplicaciones web, tenemos la posibilidad de poder optimizar el seo de nuestro desarrollo a traves de tecnologias de busqueda como el "meta". Es muy importante conocer de una buena optimizacion del SEO para poder tener un buen posicionamiento en los motores de busqueda de la web.
 
 ## 2. Desarrollo HTML
 
@@ -351,3 +353,6 @@ Metas: Los metas son etiquetas que describen informacion, podria usarse para def
 
 Header y nav: el header es el encabezado de una pagina web, para eso se utiliza una etiqueta llamada nav que nos estructura una barra de navegacion dentro del header.
 
+OJO:
+
+En ocasiones, conviene mas usar width auto para las cajas que ocupen toda la pantalla!!

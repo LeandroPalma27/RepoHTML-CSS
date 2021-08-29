@@ -192,12 +192,13 @@ Sintaxis:
     position: absolute;
 }
 ```
+
 ###### OJOOOOOOOO
 OJOOOO: El posicionamiento de relative parte desde el espacio que ocupa, mientras que el absolute, parte desde el viewport.
 
 OJOOOO2: Un posicionamiento absoluto siempre va a tomar como referencia el viewport, pero si queremos que tome como referencia a la caja que contiene al elemento posicionado absolutamente, debemos darle posicionamiento relativo al contenedor del contenido en cuestion (elementos caja que son contenido dentro de un contenedor).
 
-OJOOOO3: El posicionamiento relative le da una caracteristica de opacidad al color de fondo de cualquier elemento absoluto en el DOM. Literal, actua como una ventana.
+OJOOOO3: El posicionamiento relative(o fixed??) le da una caracteristica de opacidad al color de fondo de cualquier elemento absoluto en el DOM. Literal, actua como una ventana.
 
 #### Position: fixed
 
@@ -298,6 +299,8 @@ div{
     overflow-x: scroll;
 }
 ```
+#### Overflow: no visible
+No se muestra lo que sobra.
 
 OJO: EN EL PROYECTO OVERFLOW2, SE PUEDE OBSERVAR QUE CON UN HIDDEN PODEMOS OCULTAR TEXTO QUE SOBRESALGA DE UNA CAJA, SIEMPRE Y CUANDO SEA HIDDEN Y NO VISIBLE. TAMBIEN HICE UNA ANIMACION PIOLA CON ESO (REVISAR).
 
